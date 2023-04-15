@@ -1,13 +1,17 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity >=0.8.19;
 
 import { Script } from "forge-std/Script.sol";
-import { Foo } from "../src/Foo.sol";
+import { Shishiodoshi } from "../src/ShishiodoshiGame.sol";
+import { ShishiodoshiToken } from "../src/ShishiodoshiToken.sol";
 
 /// @dev See the Solidity Scripting tutorial: https://book.getfoundry.sh/tutorials/solidity-scripting
-contract DeployFoo is Script {
+// forge flatten src/ShishiodoshiGame.sol > game.sol
+// forge flatten src/ShishiodoshiToken.sol > token.sol
+contract DeployShishiodoshi is Script {
     address internal deployer;
-    Foo internal foo;
+    Shishiodoshi internal sh;
+    ShishiodoshiToken internal shtoken;
 
     function setUp() public virtual {
         string memory mnemonic = vm.envString("MNEMONIC");
@@ -16,7 +20,8 @@ contract DeployFoo is Script {
 
     function run() public {
         vm.startBroadcast(deployer);
-        foo = new Foo();
+        shtoken = new ShishiodoshiToken();
+        sh = new Shishiodoshi(address(shtoken));
         vm.stopBroadcast();
     }
 }
