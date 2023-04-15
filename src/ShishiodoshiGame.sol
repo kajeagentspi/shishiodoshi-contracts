@@ -284,7 +284,7 @@ contract Shishiodoshi {
 
     function endGame(uint256 _gameID, uint16 _tippingAmount, bytes32 _randomHash) public onlyAdmin {
         require(_gameID < nextGameID, "Game not yet created");
-        GameInfo memory game = gameInfos[_gameID];
+        GameInfo storage game = gameInfos[_gameID];
         require(game.winningHash != bytes32(0), "Game not initialized");
         require(game.playerOrder.length == game.playerCount, "Game not yet started");
         require(!game.isEnded, "Game already ended");
