@@ -29,6 +29,7 @@ Discord-integrated party game, that boosts communication within DAOs.
 | Mantle Testnet | [0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C](https://explorer.testnet.mantle.xyz/address/0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C/contracts#address-tabs) |
 | Gnosis Mainnet | [0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C](https://gnosisscan.io/address/0xd259fd0089c277c35a93c47bc2a0771ac0c79a3c#code) |
 | Taiko Testnet | [0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C](https://l2explorer.hackathon.taiko.xyz/address/0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C/contracts#address-tabs) |
+| Polygon Mainnet | [0xd259fD0089c277c35a93C47Bc2A0771AC0c79A3C](https://polygonscan.com/address/0xd259fd0089c277c35a93c47bc2a0771ac0c79a3c#code) |
 
 ### Game Contract Addresses
 | Chain   | Address |
@@ -37,3 +38,4 @@ Discord-integrated party game, that boosts communication within DAOs.
 | Mantle Testnet | [0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627](https://explorer.testnet.mantle.xyz/address/0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627/contracts#address-tabs) |
 | Gnosis Mainnet | [0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627](https://gnosisscan.io/address/0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627#code) |
 | Taiko Testnet | [0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627](https://l2explorer.hackathon.taiko.xyz/address/0x1E6c3bd6f9d01814FFF919Fc2C2f80de3a105627/contracts#address-tabs) |
+| Polygon Mainnet | [0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627](https://polygonscan.com/address/0x1e6c3bd6f9d01814fff919fc2c2f80de3a105627#code) |
