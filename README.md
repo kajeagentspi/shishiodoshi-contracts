@@ -21,7 +21,7 @@ Discord-integrated party game, that boosts communication within DAOs.
 ### Related Repositories
 | [frontend](https://github.com/miyatakoji/shishiodoshi-app) |
 | [gamemaster](https://github.com/kajeagentspi/shishiodoshi-go) |
-
+| [youtube](https://youtu.be/1UM0RJBo1t4)|
 ### Token Contract Addresses
 | Chain   | Address |
 | ------- | ------- |
